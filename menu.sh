@@ -4,7 +4,8 @@ echo "Choose an option:"
 echo "1) Show disk usage"
 echo "2) show running processes"
 echo "3) Backup home folder"
-echo "4) Exit"
+echo "4) Show date and time"
+echo "5) Exit"
 
 read number
 
@@ -24,5 +25,7 @@ elif [ $number -eq 3 ]; then
 	cp -r $src $dest
 	echo "folder: $src got copied to $dest Backup complete"
 elif [ $number -eq 4 ]; then
+	echo "$(date +%Y-%m-%d_%H:%M)"
+elif [ $number -eq 5 ]; then
 	exit 1
 fi
