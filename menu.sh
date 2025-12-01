@@ -2,7 +2,7 @@
 
 echo "Choose an option:"
 echo "1) Show disk usage"
-echo "2) show running processes"
+echo "2) show active processes"
 echo "3) Backup home folder"
 echo "4) Show date and time"
 echo "5) Exit"
