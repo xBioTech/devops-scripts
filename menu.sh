@@ -6,7 +6,8 @@ echo "2) list all running processes"
 echo "3) Backup home folder"
 echo "4) Show date and time"
 echo "5) Exit"
-echo "rebase test on main branch"
+echo "git rebase test"
+
 
 read number
 
